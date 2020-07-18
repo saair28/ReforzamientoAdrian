@@ -8,28 +8,17 @@ using UnityEngine.UI;
 
 public class Model_banco : MonoBehaviour
 {
-
+    public Controller_banco controller;
     public Text PanelIzqui;
     public Text PanelCent;
     public Text PanelDere;
-    public int contPanel;
-    public int turnos;
     public bool siguiente = false;
-    public int a;
-    public int b;
-    public int c;
+    public int turnos;
     public GameObject espere;
 
     public void Start()
     {
         turnos = 0;
-
-        espere.SetActive(false);
-
-    }
-
-    public void Update()
-    {
 
     }
 }
